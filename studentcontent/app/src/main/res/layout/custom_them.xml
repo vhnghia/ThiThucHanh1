@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="300dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Nhap id: " />
+        <EditText
+            android:id="@+id/edtId"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhap ID"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Nhap Ten: " />
+        <EditText
+            android:id="@+id/edtTen"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhap Ten"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Nhap Khoa: " />
+        <EditText
+            android:id="@+id/edtKhoa"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhap Khoa"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSaveCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+
+</LinearLayout>
